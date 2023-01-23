@@ -3,7 +3,7 @@
    print() - concatenate vs print a series of items"""
 
 def main():
-    # collect string input from user\
+    # collect string input from user
     user_input = input("Please enter an IPv4 address:")
     
     # collect vendor name
