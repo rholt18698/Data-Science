@@ -6,7 +6,7 @@
 
 def main():
     # pause the program and wait for the user to provide input
-    user_input = input("You tolf me to enter an IPv4 IP address:")
+    user_input = input("You told me to enter an IPv4 IP address:")
 
     # display the input back to the user.
     print("You told me to the IPv4 address is: " + user_input)
