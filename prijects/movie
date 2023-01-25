@@ -1,0 +1,15 @@
+# Suggest a movie based on user input choice
+#!/usr/bin/python3
+
+# Print out movie choices
+print("Welcome to Movie suggestions \n Please choose what type of movie you like to watch: \n Your choices are\n Comedy\n Horror\n or Drama\n")
+
+# Collect user choice
+choice = input("Choose A Genra: ")
+
+# Comedy suggestions
+if choice=="Comedy":
+     print("You hvae chosen"+choice" A few movie suggestions are:\n My Cousin Vinny\n Uncle Buck\n Caddyshack")
+
+#Horror suggestions
+
