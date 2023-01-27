@@ -1,0 +1,14 @@
+#!/usr/bin/env python3
+#Read the content of Dracula and print each line out
+
+foo= open("dracula.txt","r")
+
+#Print out how many times Vampire appears
+
+count= 0
+for line in foo:
+    if "vampire" in line.lower():
+        count += 1
+print(count)
+
+

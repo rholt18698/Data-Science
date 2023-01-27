@@ -1,0 +1,11 @@
+#!/usr/bin/env python3
+#Read the content of Dracula and print each line out
+
+foo= open("dracula.txt","r")
+
+#Loop over every line and print it out
+
+for line in foo:
+    if "vampire" in line.lower():
+        print(line)
+
